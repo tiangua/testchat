@@ -1,9 +1,7 @@
 FROM suyunkai46/chatgpt-wechat:latest
 
-RUN mkdir -p /app
-WORKDIR /app
+WORKDIR /code
 
-COPY code/src/ ./src/
 ADD . ./src
 
 CMD ["npm", "run", "dev"]
