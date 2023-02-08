@@ -4,6 +4,6 @@ WORKDIR /code
 
 ADD . ./src
 
-RUN sed -i -e 's/phantom/$mysk/g' ./src/config.ts
+RUN --env mysk=$mysk sed -i -e 's/phantom/{mysk}/g' ./src/config.ts
 
 CMD ["npm", "run", "dev"]
