@@ -1,6 +1,6 @@
 export default {
-  // 填入你的session token
-  OPENAI_API_KEY: 'phantom',
+  // 填入你的APIKEY
+  OPENAI_API_KEY: 'phantom-GKKzfSoAVKtiangua3m75RfjiS3T3BlbkFJDAdWtianguaE1GmHXntuUDlv5ca',
   // 设置获取消息的重试次数
   retryTimes: 3,
   // 在群组中设置唤醒微信机器人的关键词
