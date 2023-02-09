@@ -1,4 +1,4 @@
-FROM suyunkai46/chatgpt-wechat:3.0.1
+FROM suyunkai46/chatgpt-wechat:3.0
 
 WORKDIR /code
 
