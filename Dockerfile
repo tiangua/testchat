@@ -2,9 +2,9 @@ FROM suyunkai46/chatgpt-wechat:latest
 
 WORKDIR /code
 
-RUN rm -f ./src/chatgpt-api.ts
+COPY . ./
 
-COPY . ./src
+COPY config.ts ./src
 
 RUN sed -i -e 's/phantom/sk/g' ./src/config.ts
 
