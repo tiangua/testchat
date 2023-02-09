@@ -1,2 +1,2 @@
 # testchat
-## 1、升级模型，完成测试
+## 1、update docker image
