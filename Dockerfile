@@ -1,8 +1,6 @@
-FROM suyunkai46/chatgpt-wechat:latest
+FROM suyunkai46/chatgpt-wechat:3.0.1
 
 WORKDIR /code
-
-COPY . ./
 
 COPY config.ts ./src
 
